@@ -1,6 +1,6 @@
-# ADX-Analitics-test
+# ADX-Analytics-test
 
-チラシからの流入を ADX Analitics と GA4 で確認するためのテストページです。
+チラシからの流入を ADX Analytics と GA4 で確認するためのテストページです。
 
 ## 公開方法
 
