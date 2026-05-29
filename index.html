@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="チラシからの流入を ADX Analitics と GA4 で確認するためのテストページです。"
+      content="チラシからの流入を確認するためのテストページです。"
     >
     <title>チラシ流入テスト | ADX Analitics</title>
-    <!-- GA4 や ADX の計測タグは、このあたりに追加する想定です。 -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PMW2QWFWDC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PMW2QWFWDC');
+    </script>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
